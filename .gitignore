@@ -1,0 +1,5 @@
+# Full texts are copyrighted: keep them local, never commit.
+data/
+*.pdf
+__pycache__/
+.DS_Store
