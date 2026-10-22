@@ -3,3 +3,4 @@ data/
 *.pdf
 __pycache__/
 .DS_Store
+corpus/arxiv_matches.jsonl

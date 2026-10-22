@@ -1,0 +1,2406 @@
+{
+ "n_research": 37,
+ "n_overview": 2,
+ "fields": {
+  "source": {
+   "image": 27,
+   "text": 7,
+   "video": 3,
+   "abstract-source": 1,
+   "multi-view": 1,
+   "speech": 3
+  },
+  "task": {
+   "classification": 10,
+   "reconstruction": 31,
+   "segmentation": 3,
+   "retrieval": 3,
+   "remote-source-coding": 1,
+   "recognition": 2,
+   "synthesis": 1,
+   "multi-task": 1,
+   "VQA": 2,
+   "translation": 1,
+   "sentiment": 1
+  },
+  "architecture": {
+   "CNN": 24,
+   "MLP": 3,
+   "RL": 2,
+   "attention": 8,
+   "transformer": 11,
+   "GAN": 5,
+   "hyperprior": 2,
+   "probability-graph": 1,
+   "VAE": 3,
+   "LLM": 2,
+   "diffusion": 2,
+   "Swin": 3,
+   "RNN": 1,
+   "VQ": 2
+  },
+  "channel": {
+   "AWGN": 27,
+   "OFDM": 4,
+   "Rayleigh": 23,
+   "MIMO": 4,
+   "feedback": 2,
+   "Rician": 4,
+   "erasure-packet": 1,
+   "abstract": 1
+  },
+  "adaptivity": {
+   "SNR": 13,
+   "bandwidth-rate": 11,
+   "resource-allocation": 3,
+   "feedback-HARQ": 2,
+   "CSI": 3,
+   "content": 5,
+   "domain": 1,
+   "none": 10,
+   "power": 1,
+   "modulation": 2,
+   "task": 1
+  },
+  "training": {
+   "end-to-end": 19,
+   "RL": 3,
+   "multi-stage": 14,
+   "domain-adaptation": 1,
+   "receiver-led": 1,
+   "none": 3,
+   "test-time-optimization": 1,
+   "pretrained-frozen": 3,
+   "adversarial-training": 2,
+   "robust-sampling": 1,
+   "transfer-learning": 1,
+   "separate-module": 1,
+   "fine-tune": 1,
+   "multi-objective": 1
+  },
+  "metrics": {
+   "accuracy": 12,
+   "latency": 1,
+   "BLEU": 4,
+   "custom": 10,
+   "MS-SSIM": 12,
+   "PSNR": 23,
+   "SSIM": 6,
+   "mIoU": 3,
+   "BD-rate": 1,
+   "semantic-rate": 1,
+   "bit-rate": 2,
+   "power": 1,
+   "energy": 1,
+   "LPIPS": 4,
+   "CLIP": 1,
+   "rate-distortion": 1,
+   "sentence-similarity": 1,
+   "CER": 1,
+   "WER": 1,
+   "SDR": 1,
+   "PESQ": 1,
+   "Recall@1": 1,
+   "FID": 1,
+   "KID": 1
+  },
+  "datasets": {
+   "Tiny-ImageNet": 3,
+   "MNIST": 7,
+   "CIFAR-10": 21,
+   "AGENDA": 1,
+   "DocRED": 1,
+   "BVI-DVC": 1,
+   "UCF101": 1,
+   "VoxCeleb": 1,
+   "UVG": 1,
+   "HEVC": 1,
+   "Vimeo-90k": 1,
+   "PASCAL-VOC2012": 1,
+   "USPS": 1,
+   "SVHN": 1,
+   "STL-10": 1,
+   "FFHQ": 1,
+   "ImageNet": 12,
+   "CelebA-HQ": 1,
+   "OpenImages": 3,
+   "Kodak": 12,
+   "CLIC": 2,
+   "CelebA": 2,
+   "CIFAR-100": 4,
+   "ADE20K": 1,
+   "Fashion-MNIST": 1,
+   "CLIC2021": 1,
+   "DIV2K": 2,
+   "Europarl": 2,
+   "WRGBD": 1,
+   "ModelNet40": 1,
+   "LJSpeech": 1,
+   "Edinburgh": 1,
+   "WMT2018": 1,
+   "CUB-200-2011": 1,
+   "CLEVR": 1,
+   "Cityscapes": 1,
+   "VQAv2": 1,
+   "CMU-MOSEI": 1,
+   "SST-2": 1
+  },
+  "baselines": {
+   "other-learned": 17,
+   "DeepJSCC": 13,
+   "own-ablation": 8,
+   "separate": 30,
+   "optimization": 4,
+   "NTSCC": 1,
+   "DeepSC": 1
+  },
+  "idea_delta": {
+   "theory": 7,
+   "adaptivity": 13,
+   "new-paradigm": 3,
+   "system-optimization": 4,
+   "knowledge-base": 4,
+   "new-metric": 8,
+   "new-modality": 8,
+   "feedback-retransmission": 3,
+   "new-task": 5,
+   "robustness": 4,
+   "multi-user": 5,
+   "generative-prior": 5,
+   "security-privacy": 3,
+   "digitalization": 6,
+   "new-channel": 4,
+   "new-component": 9
+  },
+  "category": {
+   "task-multiuser": 6,
+   "networking": 3,
+   "modality": 6,
+   "generative": 4,
+   "theory-security": 3,
+   "digital": 5,
+   "image-jscc": 10
+  },
+  "paradigm": {
+   "task-feature": 7,
+   "knowledge-based": 3,
+   "analog-jscc": 17,
+   "system-level": 2,
+   "separate-learned": 3,
+   "digital-jscc": 4,
+   "theory": 1
+  },
+  "theory": {
+   "information-bottleneck": 3,
+   "none": 25,
+   "other": 2,
+   "performance-bound": 2,
+   "rate-distortion": 3,
+   "information-theoretic": 2
+  }
+ },
+ "bools": {
+  "snr_mismatch_test": 19,
+  "complexity_reported": 19,
+  "digital_compatible": 14,
+  "hardware_validation": 0
+ },
+ "derived": {
+  "fading": 27,
+  "awgn_only": 9,
+  "separate_baseline": 30,
+  "perceptual_metric": 14,
+  "hires_image_video": [
+   20,
+   30
+  ],
+  "code_released": 1
+ },
+ "idea_delta_by_category": {
+  "task-multiuser": {
+   "theory": 2,
+   "adaptivity": 2,
+   "new-paradigm": 1,
+   "new-task": 3,
+   "knowledge-base": 1,
+   "robustness": 1,
+   "new-component": 1,
+   "multi-user": 3,
+   "security-privacy": 1,
+   "feedback-retransmission": 1,
+   "new-modality": 1,
+   "digitalization": 1
+  },
+  "networking": {
+   "system-optimization": 3,
+   "knowledge-base": 1,
+   "new-metric": 1,
+   "theory": 1,
+   "multi-user": 2
+  },
+  "modality": {
+   "adaptivity": 2,
+   "new-modality": 6,
+   "new-metric": 2,
+   "knowledge-base": 1,
+   "feedback-retransmission": 1,
+   "new-paradigm": 1,
+   "new-task": 1
+  },
+  "generative": {
+   "new-metric": 2,
+   "generative-prior": 4,
+   "system-optimization": 1,
+   "theory": 1,
+   "knowledge-base": 1,
+   "new-modality": 1,
+   "new-component": 1
+  },
+  "theory-security": {
+   "new-metric": 2,
+   "security-privacy": 2,
+   "robustness": 1,
+   "theory": 1,
+   "adaptivity": 1
+  },
+  "digital": {
+   "digitalization": 5,
+   "theory": 2,
+   "adaptivity": 2,
+   "robustness": 2,
+   "new-component": 1
+  },
+  "image-jscc": {
+   "new-channel": 4,
+   "feedback-retransmission": 1,
+   "new-paradigm": 1,
+   "new-component": 6,
+   "adaptivity": 6,
+   "new-task": 1,
+   "new-metric": 1,
+   "generative-prior": 1
+  }
+ },
+ "lineage_edges": [
+  [
+   "jsac.2021.3126087",
+   "tccn.2019.2919300"
+  ],
+  [
+   "jsac.2022.3191354",
+   "tccn.2019.2919300"
+  ],
+  [
+   "jsac.2022.3221977",
+   "jsac.2022.3180802"
+  ],
+  [
+   "jsac.2022.3221991",
+   "tsp.2021.3071210"
+  ],
+  [
+   "jsac.2022.3222000",
+   "tsp.2021.3071210"
+  ],
+  [
+   "jsac.2023.3288243",
+   "tccn.2019.2919300"
+  ],
+  [
+   "jsac.2023.3288249",
+   "twc.2023.3265201"
+  ],
+  [
+   "jsac.2025.3531546",
+   "jsac.2022.3180802"
+  ],
+  [
+   "jsac.2025.3559120",
+   "jsac.2023.3288243"
+  ],
+  [
+   "jsac.2025.3559120",
+   "twc.2024.3379244"
+  ],
+  [
+   "jsait.2020.2987203",
+   "tccn.2019.2919300"
+  ],
+  [
+   "jsait.2022.3231042",
+   "tccn.2019.2919300"
+  ],
+  [
+   "tccn.2022.3151935",
+   "tccn.2019.2919300"
+  ],
+  [
+   "tccn.2024.3401712",
+   "tccn.2019.2919300"
+  ],
+  [
+   "tccn.2024.3401712",
+   "jsait.2020.2987203"
+  ],
+  [
+   "tccn.2024.3422496",
+   "jsait.2022.3231042"
+  ],
+  [
+   "tccn.2024.3422496",
+   "twc.2021.3090048"
+  ],
+  [
+   "tccn.2024.3424842",
+   "tccn.2019.2919300"
+  ],
+  [
+   "tccn.2024.3424842",
+   "jsac.2022.3180802"
+  ],
+  [
+   "tcomm.2024.3386577",
+   "jsait.2022.3231042"
+  ],
+  [
+   "twc.2021.3090048",
+   "tccn.2019.2919300"
+  ],
+  [
+   "twc.2022.3191118",
+   "jsac.2021.3126087"
+  ],
+  [
+   "twc.2023.3240969",
+   "tsp.2021.3071210"
+  ],
+  [
+   "twc.2023.3240969",
+   "jsac.2021.3087240"
+  ],
+  [
+   "twc.2023.3349330",
+   "tccn.2019.2919300"
+  ],
+  [
+   "twc.2023.3349330",
+   "jsac.2021.3126087"
+  ],
+  [
+   "twc.2023.3349330",
+   "tcomm.2024.3364990"
+  ],
+  [
+   "twc.2024.3369170",
+   "jsac.2021.3126087"
+  ],
+  [
+   "twc.2024.3379244",
+   "tccn.2024.3424842"
+  ],
+  [
+   "twc.2024.3379244",
+   "jsac.2023.3288243"
+  ],
+  [
+   "twc.2024.3422794",
+   "tccn.2019.2919300"
+  ],
+  [
+   "jsac.2021.3087240",
+   "tsp.2021.3071210"
+  ],
+  [
+   "jsac.2022.3180802",
+   "tccn.2019.2919300"
+  ],
+  [
+   "tcomm.2024.3364990",
+   "twc.2023.3265201"
+  ]
+ ],
+ "followup_mentions": [
+  [
+   "jsac.2021.3126087",
+   "twc.2022.3191118"
+  ],
+  [
+   "jsac.2021.3126087",
+   "twc.2024.3369170"
+  ],
+  [
+   "jsac.2022.3191112",
+   "jsac.2023.3240713"
+  ],
+  [
+   "jsac.2022.3191354",
+   "jsac.2022.3221977"
+  ],
+  [
+   "jsac.2022.3221977",
+   "jsac.2022.3221968"
+  ],
+  [
+   "jsac.2022.3221991",
+   "twc.2024.3369170"
+  ],
+  [
+   "jsac.2023.3288243",
+   "twc.2024.3379244"
+  ],
+  [
+   "jsait.2020.2987203",
+   "twc.2024.3386052"
+  ],
+  [
+   "jsait.2022.3231042",
+   "tcomm.2024.3386577"
+  ],
+  [
+   "jsait.2022.3231042",
+   "tccn.2024.3422496"
+  ],
+  [
+   "tccn.2022.3151935",
+   "twc.2024.3422794"
+  ],
+  [
+   "tccn.2022.3151935",
+   "tcomm.2024.3397862"
+  ],
+  [
+   "tccn.2023.3326302",
+   "jsac.2022.3222000"
+  ],
+  [
+   "tccn.2024.3435524",
+   "jsac.2025.3559120"
+  ],
+  [
+   "tcomm.2024.3386577",
+   "tccn.2024.3422496"
+  ],
+  [
+   "tsp.2021.3071210",
+   "jsac.2021.3087240"
+  ],
+  [
+   "tsp.2021.3071210",
+   "twc.2023.3240969"
+  ],
+  [
+   "tsp.2021.3071210",
+   "jsac.2022.3191326"
+  ],
+  [
+   "twc.2023.3265201",
+   "jsac.2023.3288249"
+  ],
+  [
+   "twc.2024.3369170",
+   "jsac.2023.3288249"
+  ],
+  [
+   "jsac.2021.3087240",
+   "twc.2023.3240969"
+  ],
+  [
+   "jsac.2022.3180802",
+   "jsac.2025.3531546"
+  ],
+  [
+   "jsac.2022.3180802",
+   "jsac.2022.3221977"
+  ],
+  [
+   "jsac.2022.3191326",
+   "tccn.2023.3326302"
+  ],
+  [
+   "jsac.2022.3191326",
+   "jsac.2022.3222000"
+  ],
+  [
+   "jsac.2022.3191326",
+   "tcomm.2024.3364990"
+  ]
+ ],
+ "open_problems": [
+  {
+   "doi": "jsac.2021.3126087",
+   "kind": "author",
+   "text": "\"There are many interesting future research directions on this exciting topic, e.g., to apply the IB-based framework to the scenario with multiple devices, to develop a theoretical understanding …\"",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3126087",
+   "kind": "inferred",
+   "text": "多设备协同推理（后续 twc.2022.3191118）",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3126087",
+   "kind": "inferred",
+   "text": "数字化 IB 特征（离散码本）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3126087",
+   "kind": "inferred",
+   "text": "衰落 / MIMO",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3126087",
+   "kind": "inferred",
+   "text": "检测、分割等复杂任务",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3126087",
+   "kind": "inferred",
+   "text": "隐私（特征可被反演，后续 twc.2024.3369170）",
+   "themes": [
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191112",
+   "kind": "inferred",
+   "text": "传输错误对三元组 / 知识图谱的影响与纠错",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191112",
+   "kind": "inferred",
+   "text": "多模态知识图谱",
+   "themes": [
+    "new modality / task / dataset",
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191112",
+   "kind": "inferred",
+   "text": "收发两端知识图谱不一致",
+   "themes": [
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191112",
+   "kind": "inferred",
+   "text": "语义度量与人类评价的一致性检验",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191112",
+   "kind": "inferred",
+   "text": "能效目标（后续 jsac.2023.3240713）",
+   "themes": [
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191354",
+   "kind": "author",
+   "text": "\"As part of future work, the coding efficiency of DeepWiVe may be improved by considering variable GoP sizes.\"",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191354",
+   "kind": "author",
+   "text": "\"The performance of the models should also be evaluated in practical channels, using, for example, software defined radios (SDRs).\"",
+   "themes": [
+    "hardware / over-the-air validation"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191354",
+   "kind": "inferred",
+   "text": "语义特征域条件编码（后续 jsac.2022.3221977 DVST）",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191354",
+   "kind": "inferred",
+   "text": "数字化视频 JSCC",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191354",
+   "kind": "inferred",
+   "text": "多用户 / 广播视频",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191354",
+   "kind": "inferred",
+   "text": "任务导向视频（检测、跟踪）",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221968",
+   "kind": "inferred",
+   "text": "语义 HARQ 的通用化（其他模态的语义错误检测器）",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221968",
+   "kind": "inferred",
+   "text": "关键点 + 残差的分层传输兼顾细节",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221968",
+   "kind": "inferred",
+   "text": "扩散 / 3D 人脸模型提升保真",
+   "themes": [
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221968",
+   "kind": "inferred",
+   "text": "多方会议的多用户资源分配",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221968",
+   "kind": "inferred",
+   "text": "生成内容的身份安全（深伪风险）",
+   "themes": [
+    "generative / foundation models",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221977",
+   "kind": "inferred",
+   "text": "数字化视频语义传输（码本 / 量化 + 数字调制）",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221977",
+   "kind": "inferred",
+   "text": "MIMO / OFDM 下的视频 deep JSCC",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221977",
+   "kind": "inferred",
+   "text": "与 HARQ / 反馈结合缓解 GOP 内误差传播",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221977",
+   "kind": "inferred",
+   "text": "实时性（模型加速、轻量化）",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221977",
+   "kind": "inferred",
+   "text": "多用户视频流的带宽共享",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "new modality / task / dataset",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221977",
+   "kind": "inferred",
+   "text": "生成式先验提升低码率视频感知质量（如视频会议，jsac.2022.3221968）",
+   "themes": [
+    "generative / foundation models",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221991",
+   "kind": "author",
+   "text": "\"There are many interesting problems to further investigate in the future, such as how to coordinate the training of semantic encoder and decoder with minimum communication cost, how …\"",
+   "themes": [
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221991",
+   "kind": "inferred",
+   "text": "梯度回传的隐私泄露分析（与 twc.2024.3369170 的模型反演攻击相关）",
+   "themes": [
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221991",
+   "kind": "inferred",
+   "text": "多接收端多任务下的接收端主导训练",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221991",
+   "kind": "inferred",
+   "text": "在线 / 持续学习应对数据漂移",
+   "themes": [
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221991",
+   "kind": "inferred",
+   "text": "知识库失配的理论刻画",
+   "themes": [
+    "theory / limits / metrics",
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3222000",
+   "kind": "author",
+   "text": "结论 bullet：\"Heterogeneous transmission design with multiple S- and B-users: This paper considered a fundamental model with one S-user and one B-user.\"",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3222000",
+   "kind": "author",
+   "text": "结论 bullet：\"Performance limit characterization of the heterogeneous transmission with multimodal data: The semantic rate considered in this paper is used for characterizing the performance of text semantic communications.\"",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3222000",
+   "kind": "author",
+   "text": "结论 bullet：\"Opportunistic semantic and bit transmission design: This paper assumed that each user can only use one specific transmission method, i.e., semantic or bit-based transmission.\"",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3222000",
+   "kind": "inferred",
+   "text": "多天线 / RSMA 下的语义-比特共存",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3222000",
+   "kind": "inferred",
+   "text": "用实际 deep JSCC 模型在叠加干扰下训练验证回归模型",
+   "themes": [
+    "other"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3222000",
+   "kind": "inferred",
+   "text": "图像 / 视频的语义速率曲线建模",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3240713",
+   "kind": "inferred",
+   "text": "用实际 deep JSCC 模型替换抽象语义函数，评估端到端语义性能",
+   "themes": [
+    "other"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3240713",
+   "kind": "inferred",
+   "text": "知识库更新频率与公共消息开销的权衡",
+   "themes": [
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3240713",
+   "kind": "inferred",
+   "text": "不完美 CSI 下的鲁棒设计",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3240713",
+   "kind": "inferred",
+   "text": "RIS / ISAC 等其他技术与语义通信的结构性结合",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288243",
+   "kind": "inferred",
+   "text": "通用图像上的生成式 JSCC（扩散模型替代 GAN，见 twc.2024.3379244 等）",
+   "themes": [
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288243",
+   "kind": "inferred",
+   "text": "生成幻觉的度量与控制（语义保真 vs 感知）",
+   "themes": [
+    "generative / foundation models",
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288243",
+   "kind": "inferred",
+   "text": "测试时优化的复杂度 / 时延",
+   "themes": [
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288243",
+   "kind": "inferred",
+   "text": "衰落信道与数字调制下的生成式 JSCC",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "digital compatibility / modulation / channel coding",
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288243",
+   "kind": "inferred",
+   "text": "JSCC 中率-失真-感知权衡的理论刻画",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288249",
+   "kind": "author",
+   "text": "\"This is probably because the semantics involved in CIFAR are much more complex than the ones in MNIST, and further understanding such a phenomenon would be an interesting …\"",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288249",
+   "kind": "inferred",
+   "text": "黑盒 / 迁移攻击",
+   "themes": [
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288249",
+   "kind": "inferred",
+   "text": "可认证鲁棒性（certified robustness）在语义通信中的界",
+   "themes": [
+    "theory / limits / metrics",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288249",
+   "kind": "inferred",
+   "text": "生成式与数字语义系统的对抗鲁棒性",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "generative / foundation models",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288249",
+   "kind": "inferred",
+   "text": "攻击检测与信道估计联合",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2023.3288249",
+   "kind": "inferred",
+   "text": "多用户场景下的语义干扰攻击",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3531546",
+   "kind": "author",
+   "text": "结论 bullet：\"E2E metric design: This paper described the E2E performance using the classical MSE metric, which might not be optimal for certain task-oriented applications.\"",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3531546",
+   "kind": "author",
+   "text": "结论 bullet：\"Multi-user case: Future research could explore the extension of the D2-JSCC framework to a multi-user scenario, but the adaptive design of source-channel coders may pose challenges due to …\"",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3531546",
+   "kind": "author",
+   "text": "结论 bullet：\"Fading channel: More advanced techniques, e.g., truncated power control can be combined with the D2-JSCC framework to overcome channel fading.\"",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3531546",
+   "kind": "inferred",
+   "text": "与 HARQ / 自适应调制编码（AMC）结合",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3531546",
+   "kind": "inferred",
+   "text": "高阶调制下的速率控制",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3531546",
+   "kind": "inferred",
+   "text": "感知指标下的失真刻画",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3559120",
+   "kind": "author",
+   "text": "\"This insight points toward future research in adaptive semantic communications with channel feedback to improve both radio and computation efficiency.\"",
+   "themes": [
+    "complexity / energy / latency / deployment",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3559120",
+   "kind": "author",
+   "text": "\"Despite these advances, a universal semantic information theory for SemCom system design remains an open challenge.\"",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3559120",
+   "kind": "inferred",
+   "text": "通信功率与生成计算能耗的联合优化",
+   "themes": [
+    "complexity / energy / latency / deployment",
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3559120",
+   "kind": "inferred",
+   "text": "多用户下的语义感知资源分配",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3559120",
+   "kind": "inferred",
+   "text": "视频 / 多模态的感知-误差刻画",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2025.3559120",
+   "kind": "inferred",
+   "text": "感知-误差函数的解析模型（替代曲线拟合）",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsait.2020.2987203",
+   "kind": "author",
+   "text": "\"We will explore adaptive power allocation strategies through reinforcement learning as a future extension of this work, …\"",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsait.2020.2987203",
+   "kind": "author",
+   "text": "\"An implementation of such hybrid solution is left for future work.\"（根据反馈噪声决定是否利用反馈）",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsait.2020.2987203",
+   "kind": "author",
+   "text": "\"… the general design principles presented in this work can be potentially applied to other information sources, such as audio or video.\"",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsait.2020.2987203",
+   "kind": "inferred",
+   "text": "反馈与 ARQ/HARQ 的结合（后续出现 HARQ 类语义传输）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsait.2020.2987203",
+   "kind": "inferred",
+   "text": "用 Transformer 处理反馈（后续 twc.2024.3386052）",
+   "themes": [
+    "architecture / training improvements"
+   ]
+  },
+  {
+   "doi": "jsait.2020.2987203",
+   "kind": "inferred",
+   "text": "多用户下的反馈利用",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsait.2022.3231042",
+   "kind": "inferred",
+   "text": "低阶星座下的性能提升（后续 tcomm.2024.3386577 用概率建模）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsait.2022.3231042",
+   "kind": "inferred",
+   "text": "调制阶数随 SNR 自适应（后续 tccn.2024.3422496）",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "jsait.2022.3231042",
+   "kind": "inferred",
+   "text": "与信道编码 / 比特接口的结合（D²-JSCC 等）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsait.2022.3231042",
+   "kind": "inferred",
+   "text": "衰落与 MIMO 下的星座约束 JSCC",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tccn.2019.2919300",
+   "kind": "author",
+   "text": "\"The next step in improving the performance of the deep JSCC scheme is to exploit more advanced NN architectures in the autoencoder that have been shown to improve …\"",
+   "themes": [
+    "architecture / training improvements"
+   ]
+  },
+  {
+   "doi": "tccn.2019.2919300",
+   "kind": "author",
+   "text": "\"We will also explore the performance of the system for non-Gaussian channels as well as for channels with memory, for which we do not have capacity-approaching channel codes.\"",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "tccn.2019.2919300",
+   "kind": "inferred",
+   "text": "SNR / 带宽自适应的单一模型（后续 ADJSCC、bandwidth-agile、SwinJSCC 解决）",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "tccn.2019.2919300",
+   "kind": "inferred",
+   "text": "数字化与星座约束（后续 DeepJSCC-Q、D²-JSCC）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tccn.2019.2919300",
+   "kind": "inferred",
+   "text": "视频等其他信源（后续 DeepWiVe）",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tccn.2022.3151935",
+   "kind": "author",
+   "text": "\"Another future direction is to add more details to the OFDM system such as carrier frequency offset (CFO) and packet detection so that the system is more practical.\"",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "hardware / over-the-air validation"
+   ]
+  },
+  {
+   "doi": "tccn.2022.3151935",
+   "kind": "author",
+   "text": "\"Another possible future work is to design novel pilot structures and CSI feedback schemes to improve the accuracy of the CSI and the quality of reconstructed source via …\"",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "tccn.2022.3151935",
+   "kind": "author",
+   "text": "\"One possible direction of future works is to generalize this work to other types of sources such as audio and video.\"",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tccn.2022.3151935",
+   "kind": "inferred",
+   "text": "MIMO-OFDM 下的 JSCC（后续 twc.2024.3422794）",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "tccn.2022.3151935",
+   "kind": "inferred",
+   "text": "按语义重要性分配子载波（后续 tcomm.2024.3397862）",
+   "themes": [
+    "other"
+   ]
+  },
+  {
+   "doi": "tccn.2022.3151935",
+   "kind": "inferred",
+   "text": "硬件 / 空口验证",
+   "themes": [
+    "hardware / over-the-air validation"
+   ]
+  },
+  {
+   "doi": "tccn.2023.3326302",
+   "kind": "author",
+   "text": "\"In future work, we can explore the design of a more powerful network architecture to improve the transmission performance of the proposed DeepMA model.\"",
+   "themes": [
+    "architecture / training improvements"
+   ]
+  },
+  {
+   "doi": "tccn.2023.3326302",
+   "kind": "inferred",
+   "text": "用户数可变 / 动态接入",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "tccn.2023.3326302",
+   "kind": "inferred",
+   "text": "非正交语义多址（语义 NOMA，见 jsac.2022.3222000）",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "tccn.2023.3326302",
+   "kind": "inferred",
+   "text": "异步与多径下的正交性",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "tccn.2023.3326302",
+   "kind": "inferred",
+   "text": "与经典多址在相同资源下的公平比较",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "tccn.2023.3326302",
+   "kind": "inferred",
+   "text": "隐私性的信息论量化",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "theory / limits / metrics",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3401712",
+   "kind": "author",
+   "text": "\"LaMoSC's limitation is how to lighten the proposed multimodal semantic encoding and decoding so that it can be applied on mobile devices.\"",
+   "themes": [
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3401712",
+   "kind": "author",
+   "text": "\"Future research avenues could explore the further optimization of the encoder-decoder framework and expand the model's application to other modalities.\"",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3401712",
+   "kind": "inferred",
+   "text": "文本 / 视觉两路的带宽分配与不等错误保护",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3401712",
+   "kind": "inferred",
+   "text": "接收端用生成模型（扩散）从文本 + 粗视觉特征重建",
+   "themes": [
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3401712",
+   "kind": "inferred",
+   "text": "LLM 推理时延与能耗的系统级优化",
+   "themes": [
+    "complexity / energy / latency / deployment",
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3401712",
+   "kind": "inferred",
+   "text": "衰落信道与数字传输下的多模态融合",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "digital compatibility / modulation / channel coding",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3422496",
+   "kind": "author",
+   "text": "\"An important direction of future research is to further optimize the performance of the proposed approach through the development of advanced designs for modulation schemes, quantization methods, and loss functions.\"",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "architecture / training improvements"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3422496",
+   "kind": "author",
+   "text": "\"Another promising research direction is to extend the proposed JSCC approach to accommodate soft-output demodulation for JSCC-based semantic communications.\"",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3422496",
+   "kind": "author",
+   "text": "\"Investigating an extension of the proposed approach to support multi-task multi-user semantic communications, where multiple devices engage in different tasks concurrently, would also be an important direction for future research.\"",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3422496",
+   "kind": "inferred",
+   "text": "与信道编码 / HARQ 的结合",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3422496",
+   "kind": "inferred",
+   "text": "高分辨率图像与重建任务",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3422496",
+   "kind": "inferred",
+   "text": "符号内比特相关性的建模（非独立 BSEC）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3424842",
+   "kind": "inferred",
+   "text": "减少联合自适应的性能损失",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3424842",
+   "kind": "inferred",
+   "text": "数字化（量化 + 星座）下的 Swin 骨干（后续 D²-JSCC 等）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3424842",
+   "kind": "inferred",
+   "text": "MIMO / OFDM 下的 Transformer JSCC",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "architecture / training improvements"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3424842",
+   "kind": "inferred",
+   "text": "更大模型 / 生成式先验带来的感知质量提升",
+   "themes": [
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "tccn.2024.3424842",
+   "kind": "inferred",
+   "text": "轻量化部署",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "tcomm.2023.3274122",
+   "kind": "author",
+   "text": "\"Second, we seek to generalize our goal-oriented communication setup beyond separable distortion criteria, since in real world applications one is more interested in relations between the input and …\"",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "tcomm.2023.3274122",
+   "kind": "author",
+   "text": "\"The idea of using alternating minimization appears to be a promising methodology to study and compute such general classes of distortion fidelities.\"",
+   "themes": [
+    "architecture / training improvements"
+   ]
+  },
+  {
+   "doi": "tcomm.2023.3274122",
+   "kind": "inferred",
+   "text": "把 SRDF 作为学习型语义编码的理论基准（如用神经网络估计 SRDF 并与 deep JSCC 比较）",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "tcomm.2023.3274122",
+   "kind": "inferred",
+   "text": "加入信道得到语义 JSCC 的可达性 / 逆定理",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "tcomm.2023.3274122",
+   "kind": "inferred",
+   "text": "多任务（多个语义失真）的率失真区域",
+   "themes": [
+    "theory / limits / metrics",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tcomm.2023.3274122",
+   "kind": "inferred",
+   "text": "与率-失真-感知理论的统一",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3386577",
+   "kind": "author",
+   "text": "\"Looking ahead, our future efforts will focus on the design and optimization of constellation geometry shaping to enhance the system's performance.\"",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3386577",
+   "kind": "inferred",
+   "text": "衰落 / MIMO / OFDM 下的 JCM",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3386577",
+   "kind": "inferred",
+   "text": "高分辨率图像",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3386577",
+   "kind": "inferred",
+   "text": "与信道编码（纠错码）的联合",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3386577",
+   "kind": "inferred",
+   "text": "调制阶数随信道自适应（后续 tccn.2024.3422496 的方向）",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "tsp.2021.3071210",
+   "kind": "inferred",
+   "text": "语音 / 图像 / 多模态（jsac.2021.3087240、twc.2023.3240969）",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tsp.2021.3071210",
+   "kind": "inferred",
+   "text": "数字化与量化（后续 digital 系列）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "tsp.2021.3071210",
+   "kind": "inferred",
+   "text": "多用户（jsac.2022.3191326）",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "tsp.2021.3071210",
+   "kind": "inferred",
+   "text": "知识库失配与持续学习",
+   "themes": [
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "tsp.2021.3071210",
+   "kind": "inferred",
+   "text": "语义信息论的严格度量",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "tsp.2021.3071210",
+   "kind": "inferred",
+   "text": "物联网轻量化（L-DeepSC）",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "twc.2021.3090048",
+   "kind": "author",
+   "text": "\"While the optimal rate-distortion region for the multiple description problem remains open for general source distributions, optimal characterization is known for Gaussian sources [9].\"（理论上仍开放）",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "twc.2021.3090048",
+   "kind": "inferred",
+   "text": "带宽自适应与 SNR 自适应同时实现的单一模型",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "twc.2021.3090048",
+   "kind": "inferred",
+   "text": "分层传输与 HARQ / 反馈结合",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "twc.2021.3090048",
+   "kind": "inferred",
+   "text": "多用户广播中不同用户收到不同层数",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "twc.2021.3090048",
+   "kind": "inferred",
+   "text": "Transformer 架构下的可变长度编码（后续 SwinJSCC、NTSCC 的速率自适应）",
+   "themes": [
+    "architecture / training improvements",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "twc.2022.3191118",
+   "kind": "author",
+   "text": "\"Given the above, it is interesting to further investigate task-oriented communication strategies for other edge AI systems and applications, e.g., to design tighter bounds in variational approximations, to …\"",
+   "themes": [
+    "other"
+   ]
+  },
+  {
+   "doi": "twc.2022.3191118",
+   "kind": "inferred",
+   "text": "在噪声 / 衰落多址信道上的分布式任务导向 JSCC（如空中计算 AirComp 融合特征）",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "multi-user / multiple access / networking",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2022.3191118",
+   "kind": "inferred",
+   "text": "设备间异构算力与带宽的联合调度",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "twc.2022.3191118",
+   "kind": "inferred",
+   "text": "真实多传感器（多摄像头、雷达 + 视觉）数据",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "twc.2022.3191118",
+   "kind": "inferred",
+   "text": "反馈开销计入后的权衡",
+   "themes": [
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "twc.2023.3234408",
+   "kind": "author",
+   "text": "\"… thus our future work is improving the network architecture and training algorithm of the DeepJSCC-V model to further improve its coding capability.\"",
+   "themes": [
+    "architecture / training improvements"
+   ]
+  },
+  {
+   "doi": "twc.2023.3234408",
+   "kind": "inferred",
+   "text": "用感知指标（LPIPS 等）做质量预测与约束",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "twc.2023.3234408",
+   "kind": "inferred",
+   "text": "把\"质量预测 + 资源分配\"推广到多用户 / 多任务的无线资源分配（后续大量 system-level 论文的基础）",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3234408",
+   "kind": "inferred",
+   "text": "在线更新预测器以适应新数据分布",
+   "themes": [
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "twc.2023.3240969",
+   "kind": "inferred",
+   "text": "多说话人 / 多语言",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3240969",
+   "kind": "inferred",
+   "text": "韵律、情感等副语言语义的传输",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3240969",
+   "kind": "inferred",
+   "text": "数字化（码本 / 量化）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "twc.2023.3240969",
+   "kind": "inferred",
+   "text": "与大语音模型（Whisper 类）结合",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3240969",
+   "kind": "inferred",
+   "text": "多用户语音语义通信的资源分配",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3240969",
+   "kind": "inferred",
+   "text": "实时流式传输的时延",
+   "themes": [
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "twc.2023.3265201",
+   "kind": "inferred",
+   "text": "文本、语音等其他模态的语义噪声",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3265201",
+   "kind": "inferred",
+   "text": "码本索引的信道编码与不等错误保护",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "twc.2023.3265201",
+   "kind": "inferred",
+   "text": "黑盒 / 物理层攻击（后续 jsac.2023.3288249）",
+   "themes": [
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "twc.2023.3265201",
+   "kind": "inferred",
+   "text": "码本大小、调制阶数与信道质量的联合自适应（后续数字 JSCC 系列）",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "twc.2023.3349330",
+   "kind": "author",
+   "text": "结论 bullet：\"Extension to more complex downstream tasks: … How to extend the proposed designs to more complex downstream tasks is an interesting …\"",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3349330",
+   "kind": "author",
+   "text": "结论 bullet：\"Extension to more complex datasets: Extending our proposed framework on more complex datasets such as ImageNet is also worth pursuing in future work.\"",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3349330",
+   "kind": "inferred",
+   "text": "多用户、多接收端各自执行不同任务（广播多任务）",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3349330",
+   "kind": "inferred",
+   "text": "任务之间的理论权衡刻画",
+   "themes": [
+    "theory / limits / metrics",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2023.3349330",
+   "kind": "inferred",
+   "text": "与数字调制兼容",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "twc.2024.3369170",
+   "kind": "inferred",
+   "text": "可证明的隐私保证（信息论隐私泄露界，如 I(S",
+   "themes": [
+    "theory / limits / metrics",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "twc.2024.3369170",
+   "kind": "inferred",
+   "text": "Ẑ) 上界）",
+   "themes": [
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "twc.2024.3369170",
+   "kind": "inferred",
+   "text": "生成式攻击者（扩散模型反演）下的鲁棒性",
+   "themes": [
+    "generative / foundation models",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "twc.2024.3369170",
+   "kind": "inferred",
+   "text": "窃听信道下语义安全（物理层安全 + 语义）",
+   "themes": [
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "twc.2024.3369170",
+   "kind": "inferred",
+   "text": "多用户、联邦训练中的隐私",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "twc.2024.3369170",
+   "kind": "inferred",
+   "text": "与 jsac.2023.3288249 的对抗鲁棒性统一框架",
+   "themes": [
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "twc.2024.3379244",
+   "kind": "author",
+   "text": "原文局限：\"It is worth emphasizing that in the event of a change in channel SNR, all systems undergo retraining to optimize their performance under the specific SNR condition.\"",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "twc.2024.3379244",
+   "kind": "inferred",
+   "text": "少步 / 一步采样（一致性模型、蒸馏）降低时延",
+   "themes": [
+    "complexity / energy / latency / deployment"
+   ]
+  },
+  {
+   "doi": "twc.2024.3379244",
+   "kind": "inferred",
+   "text": "MIMO / OFDM 与频率选择性信道下的条件分布推导",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "twc.2024.3379244",
+   "kind": "inferred",
+   "text": "数字调制下的扩散去噪",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "twc.2024.3379244",
+   "kind": "inferred",
+   "text": "与信道估计联合（不依赖完美 CSI）",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "twc.2024.3379244",
+   "kind": "inferred",
+   "text": "对任务型语义特征的去噪",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "twc.2024.3422794",
+   "kind": "author",
+   "text": "结论 bullet：\"JSCC with space-time coding. In the open-loop scenario, full potential of the spatial and temporal dimensions in MIMO can be harnessed by integrating DeepJSCC with space-time codes [56].\"",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "twc.2024.3422794",
+   "kind": "author",
+   "text": "结论 bullet：\"Variable length JSCC. Building upon the adaptability of ViT-based models to varying antenna numbers, future investigations can extend this concept to accommodate variable code lengths, …\"",
+   "themes": [
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  },
+  {
+   "doi": "twc.2024.3422794",
+   "kind": "inferred",
+   "text": "多用户 MIMO 下的语义传输与干扰管理",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "twc.2024.3422794",
+   "kind": "inferred",
+   "text": "大规模 MIMO / 相关信道下的扩展",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "twc.2024.3422794",
+   "kind": "inferred",
+   "text": "与数字调制兼容的 MIMO JSCC",
+   "themes": [
+    "fading / MIMO / OFDM / real channels",
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3087240",
+   "kind": "inferred",
+   "text": "面向识别 / 合成任务的语音语义通信（后续 twc.2023.3240969）",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3087240",
+   "kind": "inferred",
+   "text": "多说话人与噪声环境",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3087240",
+   "kind": "inferred",
+   "text": "数字化与低码率语音语义编码",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2021.3087240",
+   "kind": "inferred",
+   "text": "与语音大模型结合",
+   "themes": [
+    "generative / foundation models",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3180802",
+   "kind": "inferred",
+   "text": "数字化 NTSCC（熵模型 + 真实信道码的速率控制，后续 jsac.2025.3531546）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3180802",
+   "kind": "inferred",
+   "text": "视频扩展（后续 jsac.2022.3221977）",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3180802",
+   "kind": "inferred",
+   "text": "MIMO / OFDM 下按熵分配子信道与功率",
+   "themes": [
+    "fading / MIMO / OFDM / real channels"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3180802",
+   "kind": "inferred",
+   "text": "感知指标训练与生成式解码器",
+   "themes": [
+    "generative / foundation models",
+    "theory / limits / metrics"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191326",
+   "kind": "inferred",
+   "text": "语义感知的多址与资源分配（见 tccn.2023.3326302、jsac.2022.3222000）",
+   "themes": [
+    "multi-user / multiple access / networking"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191326",
+   "kind": "inferred",
+   "text": "用户 / 任务动态变化",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191326",
+   "kind": "inferred",
+   "text": "统一多任务模型（后续 tcomm.2024.3364990）",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3191326",
+   "kind": "inferred",
+   "text": "数字化与隐私（多用户特征泄露）",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "multi-user / multiple access / networking",
+    "security / privacy / robustness"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221999",
+   "kind": "inferred",
+   "text": "语义—感知准则下的联合信源信道编码（端到端过信道训练）",
+   "themes": [
+    "digital compatibility / modulation / channel coding"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221999",
+   "kind": "inferred",
+   "text": "扩散模型替代 GAN",
+   "themes": [
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221999",
+   "kind": "inferred",
+   "text": "语义概念的不等错误保护",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "jsac.2022.3221999",
+   "kind": "inferred",
+   "text": "通用场景（非街景）上的语义概念定义",
+   "themes": [
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3364990",
+   "kind": "inferred",
+   "text": "新任务的增量 / 持续学习（不遗忘）",
+   "themes": [
+    "new modality / task / dataset",
+    "knowledge base / continual & online learning"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3364990",
+   "kind": "inferred",
+   "text": "基础模型作为统一语义编解码器",
+   "themes": [
+    "generative / foundation models"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3364990",
+   "kind": "inferred",
+   "text": "多用户场景下的统一多任务系统",
+   "themes": [
+    "multi-user / multiple access / networking",
+    "new modality / task / dataset"
+   ]
+  },
+  {
+   "doi": "tcomm.2024.3364990",
+   "kind": "inferred",
+   "text": "码本大小与调制阶数的联合自适应",
+   "themes": [
+    "digital compatibility / modulation / channel coding",
+    "adaptivity (SNR / bandwidth / content)"
+   ]
+  }
+ ],
+ "weak_themes": {
+  "AWGN only / limited channel": [
+   "jsac.2021.3126087",
+   "jsac.2022.3221977",
+   "jsac.2022.3221991",
+   "jsac.2023.3288243",
+   "jsac.2025.3531546",
+   "tccn.2022.3151935",
+   "tccn.2024.3401712",
+   "tccn.2024.3424842",
+   "tcomm.2024.3386577",
+   "tsp.2021.3071210",
+   "twc.2022.3191118",
+   "twc.2023.3240969"
+  ],
+  "no complexity / latency analysis": [
+   "jsac.2021.3126087",
+   "jsac.2022.3191354",
+   "jsac.2022.3221977",
+   "jsac.2023.3288243",
+   "jsac.2025.3559120",
+   "jsait.2020.2987203",
+   "jsait.2022.3231042",
+   "tccn.2023.3326302",
+   "twc.2022.3191118",
+   "twc.2023.3234408",
+   "twc.2023.3265201",
+   "twc.2023.3349330",
+   "twc.2024.3379244",
+   "jsac.2022.3180802",
+   "jsac.2022.3221999"
+  ],
+  "small images / few datasets": [
+   "jsac.2021.3126087",
+   "jsac.2023.3288243",
+   "jsac.2025.3559120",
+   "jsait.2020.2987203",
+   "tccn.2024.3401712",
+   "tccn.2024.3422496",
+   "tcomm.2024.3386577",
+   "twc.2023.3240969",
+   "twc.2023.3349330",
+   "twc.2024.3369170",
+   "jsac.2021.3087240",
+   "jsac.2022.3221999",
+   "tcomm.2024.3364990"
+  ],
+  "analog only (not digital-compatible)": [
+   "jsac.2021.3126087",
+   "jsac.2022.3221977",
+   "tsp.2021.3071210",
+   "twc.2024.3379244",
+   "jsac.2021.3087240",
+   "jsac.2022.3180802"
+  ],
+  "no hardware validation": [
+   "jsac.2022.3191354",
+   "tccn.2019.2919300",
+   "tccn.2024.3422496",
+   "tcomm.2024.3386577",
+   "twc.2024.3422794"
+  ],
+  "weak / missing baselines": [
+   "jsac.2023.3288243",
+   "jsac.2025.3559120"
+  ],
+  "strong or unverified assumptions": [
+   "jsac.2022.3222000",
+   "jsac.2023.3240713",
+   "jsac.2023.3288249",
+   "jsac.2025.3531546",
+   "jsac.2025.3559120",
+   "tccn.2024.3422496",
+   "twc.2023.3265201",
+   "twc.2024.3379244"
+  ],
+  "no future work stated": [
+   "jsac.2022.3191112",
+   "jsac.2022.3221968",
+   "jsac.2022.3221977",
+   "jsac.2023.3240713",
+   "jsac.2023.3288249",
+   "tsp.2021.3071210",
+   "twc.2023.3240969",
+   "twc.2024.3369170",
+   "twc.2024.3379244",
+   "jsac.2021.3087240",
+   "jsac.2022.3180802",
+   "jsac.2022.3191326",
+   "tcomm.2024.3364990"
+  ]
+ },
+ "median_cpy_by_category": {
+  "task-multiuser": 70.9,
+  "networking": 52.8,
+  "modality": 82.95,
+  "generative": 51.95,
+  "theory-security": 29.0,
+  "digital": 49.6,
+  "image-jscc": 80.9
+ },
+ "code_fields": {
+  "gap_type": {
+   "limitation": 17,
+   "new-paradigm": 3,
+   "resource-allocation": 1,
+   "new-metric": 2,
+   "new-scenario": 15,
+   "practicality": 12,
+   "new-assumption": 1,
+   "open-question": 2,
+   "combination": 2,
+   "security": 2,
+   "theory-gap": 4,
+   "tool-transfer": 3,
+   "new-tool": 2,
+   "correction": 1,
+   "new-task": 1,
+   "unification": 3
+  },
+  "first_claim": {
+   "True": 20,
+   "False": 17
+  },
+  "contrib_format": {
+   "bullets": 31,
+   "paragraph": 4,
+   "numbered": 2
+  },
+  "abstract_has_numbers": {
+   "False": 31,
+   "True": 6
+  },
+  "theory_role": {
+   "supporting": 12,
+   "none": 21,
+   "central": 4
+  },
+  "problem_class": {
+   "learning": 31,
+   "mixed-integer": 1,
+   "nonconvex-continuous": 4,
+   "information-theoretic": 1
+  },
+  "solution": {
+   "bound-surrogate": 8,
+   "DNN": 31,
+   "RL": 2,
+   "one-dimensional-search": 1,
+   "closed-form": 4,
+   "water-filling": 1,
+   "AO": 1,
+   "SCA": 1,
+   "lagrange": 1,
+   "gradient": 2,
+   "adversarial-training": 2,
+   "exhaustive-search": 3,
+   "bisection": 1,
+   "alternating-minimization": 1,
+   "multi-objective": 1,
+   "DRL": 1
+  },
+  "x_axes": {
+   "PSNR": 1,
+   "latency": 2,
+   "users": 1,
+   "RBs": 1,
+   "iterations": 2,
+   "tokens": 1,
+   "masked-ratio": 1,
+   "SNR": 28,
+   "CBR": 3,
+   "epochs": 6,
+   "bpp": 1,
+   "BER": 2,
+   "frame-index": 1,
+   "compression-ratio": 3,
+   "semantic-rate": 1,
+   "K": 1,
+   "bit-rate": 1,
+   "target-similarity": 1,
+   "computation-capacity": 1,
+   "transmit-power": 1,
+   "bandwidth": 1,
+   "data-size": 1,
+   "PSR": 1,
+   "class-index": 1,
+   "block-length": 1,
+   "bandwidth-ratio": 8,
+   "perception-requirement": 1,
+   "BLER": 1,
+   "feedback-SNR": 1,
+   "target-quality": 2,
+   "number-of-layers": 2,
+   "constellation-map": 2,
+   "modulation-order": 2,
+   "path-number-mismatch": 1,
+   "number-of-symbols": 1,
+   "PAPR": 1,
+   "number-of-pilots": 1,
+   "network-type": 1,
+   "image-count": 1,
+   "SNR-rate-surface": 1,
+   "time": 1,
+   "compute": 1,
+   "distortion": 1,
+   "transmission-rate": 1,
+   "symbols-per-word": 1,
+   "dropout-rate": 1,
+   "bits": 1,
+   "transmission-attempts": 1,
+   "channel-index": 1,
+   "noise-power": 1,
+   "masking-ratio": 1,
+   "codebook-size": 1,
+   "weight": 1,
+   "label-corruption-rate": 1,
+   "sparsity": 1,
+   "sampling-steps": 1,
+   "noise-schedule": 1,
+   "number-of-antennas": 1,
+   "CSI-error": 1,
+   "ablation": 1,
+   "number-of-users": 1,
+   "visual-examples": 1,
+   "bitrate": 1,
+   "transmitted-symbols": 1,
+   "feature-visualization": 1
+  },
+  "fig1_role": {
+   "framework": 23,
+   "background": 3,
+   "system-model": 9,
+   "result": 1,
+   "scenario": 1
+  },
+  "complexity_analysis": {
+   "False": 18,
+   "True": 19
+  },
+  "sim_param_table": {
+   "True": 13,
+   "False": 24
+  },
+  "code_released": {
+   "False": 35,
+   "unclear": 1,
+   "True": 1
+  },
+  "conclusion_future_work": {
+   "True": 17,
+   "False": 20
+  },
+  "related_work": {
+   "in-intro-subsection": 9,
+   "separate-section": 10,
+   "in-model-section": 1,
+   "in-intro": 17
+  },
+  "roadmap": {
+   "True": 26,
+   "False": 11
+  }
+ }
+}

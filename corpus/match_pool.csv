@@ -1,0 +1,141 @@
+journal,kind,band,rank_in_band,doi,title,year,cites,cites_per_year,primary_topic,tags,first_author
+JSAC,research,2016-2018,1,10.1109/jsac.2016.2611964,Dynamic Computation Offloading for Mobile-Edge Computing With Energy Harvesting Devices,2016,1635,166.1,MEC-offloading,MEC-offloading;SWIPT-WPT,Mao
+JSAC,research,2019-2021,1,10.1109/jsac.2019.2904348,Adaptive Federated Learning in Resource Constrained Edge Computing Systems,2019,2014,274.3,federated-edge-learning,federated-edge-learning;MEC-offloading,Wang
+JSAC,research,2022-2025,1,10.1109/jsac.2022.3223408,"Beyond Transmitting Bits: Context, Semantics, and Task-Oriented Communications",2023,811,215.8,semantic,semantic,Gunduz
+JSAC,research,2016-2018,2,10.1109/jsac.2018.2815360,Task Offloading for Mobile Edge Computing in Software Defined Ultra-Dense Network,2018,1019,118.6,MEC-offloading,MEC-offloading,Chen
+JSAC,research,2019-2021,2,10.1109/jsac.2020.3000835,Reconfigurable Intelligent Surface Assisted Multiuser MISO Systems Exploiting Deep Reinforcement Learning,2020,900,145.7,RIS,RIS;learning-for-wireless,Huang
+JSAC,research,2022-2025,2,10.1109/jsac.2024.3459037,Generative AI Agents With Large Language Model for Satellite Networks via a Mixture of Experts Transmission,2024,263,142.8,satellite-NTN,satellite-NTN;learning-for-wireless,Zhang
+JSAC,research,2016-2018,3,10.1109/jsac.2018.2864426,Computation Rate Maximization in UAV-Enabled Wireless-Powered Mobile-Edge Computing Systems,2018,815,100.7,UAV,UAV;MEC-offloading;SWIPT-WPT,Zhou
+JSAC,research,2019-2021,3,10.1109/jsac.2020.3000802,Intelligent Reflecting Surface Aided MIMO Broadcasting for Simultaneous Wireless Information and Power Transfer,2020,807,130.7,RIS,RIS;SWIPT-WPT,Pan
+JSAC,research,2022-2025,3,10.1109/jsac.2023.3288261,Stacked Intelligent Metasurfaces for Efficient Holographic MIMO Communications in 6G,2023,390,122.8,RIS,RIS;cell-free-massive-MIMO,An
+JSAC,research,2016-2018,4,10.1109/jsac.2016.2549418,Energy-Efficient Hybrid Analog and Digital Precoding for MmWave MIMO Systems With Large Antenna Arrays,2016,976,92.9,cell-free-massive-MIMO,cell-free-massive-MIMO;mmWave-THz,Gao
+JSAC,research,2019-2021,4,10.1109/jsac.2021.3087240,Semantic Communication Systems for Speech Transmission,2021,676,130.6,semantic,semantic,Weng
+JSAC,research,2022-2025,4,10.1109/jsac.2022.3191326,Task-Oriented Multi-User Semantic Communications,2022,464,113.4,semantic,semantic,Xie
+JSAC,research,2016-2018,5,10.1109/jsac.2016.2549378,Cooperative Non-orthogonal Multiple Access With Simultaneous Wireless Information and Power Transfer,2016,910,86.6,NOMA-RSMA-access,NOMA-RSMA-access;SWIPT-WPT,Liu
+JSAC,research,2019-2021,5,10.1109/jsac.2020.3007043,Robust and Secure Wireless Communications via Intelligent Reflecting Surfaces,2020,773,130.5,RIS,RIS;security,Yu
+JSAC,research,2022-2025,5,10.1109/jsac.2023.3287540,Full-Duplex Communication for ISAC: Joint Beamforming and Power Optimization,2023,346,111.9,ISAC-sensing,ISAC-sensing,He
+JSAC,research,2016-2018,6,10.1109/jsac.2018.2864373,Energy-Efficient UAV Control for Effective and Fair Communication Coverage: A Deep Reinforcement Learning Approach,2018,600,74.2,UAV,UAV;learning-for-wireless,Liu
+JSAC,research,2019-2021,6,10.1109/jsac.2020.3000814,Capacity Characterization for Intelligent Reflecting Surface Aided MIMO Communication,2020,795,128.7,RIS,RIS,Zhang
+JSAC,research,2022-2025,6,10.1109/jsac.2025.3531571,6D Movable Antenna Enhanced Wireless Network via Discrete Position and Rotation Optimization,2025,159,99.9,movable-fluid-antenna,movable-fluid-antenna,Shao
+JSAC,research,2016-2018,7,10.1109/jsac.2017.2680898,Caching in the Sky: Proactive Deployment of Cache-Enabled Unmanned Aerial Vehicles for Optimized Quality-of-Experience,2017,671,71.2,UAV,UAV;vehicular;caching-D2D,Chen
+JSAC,research,2019-2021,7,10.1109/jsac.2019.2906789,Space/Aerial-Assisted Computing Offloading for IoT Applications: A Learning-Based Approach,2019,847,114.1,MEC-offloading,MEC-offloading;learning-for-wireless,Cheng
+JSAC,research,2022-2025,7,10.1109/jsac.2022.3221999,Toward Semantic Communications: Deep Learning-Based Image Semantic Coding,2023,345,91.8,semantic,semantic;learning-for-wireless,Huang
+JSAC,research,2016-2018,8,10.1109/jsac.2016.2525398,5G-Enabled Tactile Internet,2016,690,65.1,other,,Simsek
+JSAC,research,2019-2021,8,10.1109/jsac.2020.3019724,Massive Access for 5G and Beyond,2021,637,113.9,NOMA-RSMA-access,NOMA-RSMA-access,Chen
+JSAC,research,2022-2025,8,10.1109/jsac.2023.3240707,Energy Efficiency Maximization in RIS-Assisted SWIPT Networks With RSMA: A PPO-Based Approach,2023,309,90.2,RIS,RIS;NOMA-RSMA-access;SWIPT-WPT,Zhang
+JSAC,research,2016-2018,9,10.1109/jsac.2018.2869954,Follow Me at the Edge: Mobility-Aware Dynamic Service Placement for Mobile Edge Computing,2018,497,62.1,MEC-offloading,MEC-offloading,Ouyang
+JSAC,research,2019-2021,9,10.1109/jsac.2020.3000803,Massive MIMO Transmission for LEO Satellite Communications,2020,569,92.1,cell-free-massive-MIMO,cell-free-massive-MIMO;satellite-NTN,You
+JSAC,research,2022-2025,9,10.1109/jsac.2022.3180802,Nonlinear Transform Source-Channel Coding for Semantic Communications,2022,374,89.6,semantic,semantic,Dai
+JSAC,research,2016-2018,10,10.1109/jsac.2017.2679658,Device-Free Human Activity Recognition Using Commercial WiFi Devices,2017,486,51.6,other,,Wang
+JSAC,research,2019-2021,10,10.1109/jsac.2020.3036962,Multi-Agent Reinforcement Learning Based Resource Management in MEC- and UAV-Assisted Vehicular Networks,2021,514,89.3,UAV,UAV;MEC-offloading;learning-for-wireless;vehicular,Peng
+JSAC,research,2022-2025,10,10.1109/jsac.2024.3459028,Multi-Functional RIS-Assisted Semantic Anti-Jamming Communication and Computing in Integrated Aerial-Ground Networks,2024,164,89.0,RIS,RIS;semantic;UAV;security,Sun
+JSAC,research,2016-2018,11,10.1109/jsac.2017.2698958,Hybrid Analog and Digital Beamforming for mmWave OFDM Large-Scale Antenna Arrays,2017,431,46.6,mmWave-THz,mmWave-THz;waveform-modulation,Sohrabi
+JSAC,research,2019-2021,11,10.1109/jsac.2020.3036968,A Lite Distributed Semantic Communication System for Internet of Things,2021,497,86.3,semantic,semantic,Xie
+JSAC,research,2022-2025,11,10.1109/jsac.2023.3242704,Split Learning Over Wireless Networks: Parallel Design and Resource Management,2023,289,82.4,federated-edge-learning,federated-edge-learning,Wu
+JSAC,research,2016-2018,12,10.1109/jsac.2017.2760160,EMM: Energy-Aware Mobility Management for Mobile Edge Computing in Ultra Dense Networks,2017,402,45.0,MEC-offloading,MEC-offloading,Sun
+JSAC,research,2019-2021,12,10.1109/jsac.2019.2933973,Multi-Agent Deep Reinforcement Learning for Dynamic Power Allocation in Wireless Networks,2019,597,85.2,learning-for-wireless,learning-for-wireless,Nasir
+JSAC,research,2022-2025,12,10.1109/jsac.2023.3275616,Multiple Access for Near-Field Communications: SDMA or LDMA?,2023,274,82.0,near-field,near-field;NOMA-RSMA-access,Wu
+JSAC,research,2016-2018,13,10.1109/jsac.2016.2545382,Energy Efficient Mobile Cloud Computing Powered by Wireless Energy Transfer,2016,460,44.1,other,,You
+JSAC,research,2019-2021,13,10.1109/jsac.2020.3007035,Latency Minimization for Intelligent Reflecting Surface Aided Mobile Edge Computing,2020,479,80.8,RIS,RIS;MEC-offloading,Bai
+JSAC,research,2022-2025,13,10.1109/jsac.2022.3155546,Target Sensing With Intelligent Reflecting Surface: Architecture and Performance,2022,336,78.9,RIS,RIS;ISAC-sensing,Shao
+JSAC,research,2016-2018,14,10.1109/jsac.2018.2864420,Flight Time Minimization of UAV for Data Collection Over Wireless Sensor Networks,2018,355,43.9,UAV,UAV,Gong
+JSAC,research,2019-2021,14,10.1109/jsac.2020.3000807,Joint Active and Passive Beamforming Optimization for Intelligent Reflecting Surface Assisted SWIPT Under QoS Constraints,2020,498,80.6,RIS,RIS;SWIPT-WPT,Wu
+JSAC,research,2022-2025,14,10.1109/jsac.2022.3221977,Wireless Deep Video Semantic Transmission,2023,275,73.2,semantic,semantic,Wang
+JSAC,overview,2022-2025,1,10.1109/jsac.2022.3156632,Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond,2022,4036,929.6,ISAC-sensing,ISAC-sensing,Liu
+JSAC,overview,2019-2021,2,10.1109/jsac.2020.3007211,"Smart Radio Environments Empowered by Reconfigurable Intelligent Surfaces: How It Works, State of Research, and The Road Ahead",2020,3224,544.1,RIS,RIS,Di Renzo
+JSAC,overview,2016-2018,3,10.1109/jsac.2017.2725519,A Survey on Non-Orthogonal Multiple Access for 5G Networks: Research Challenges and Future Trends,2017,2264,251.3,NOMA-RSMA-access,NOMA-RSMA-access,Ding
+JSAC,overview,2016-2018,4,10.1109/jsac.2017.2692307,"5G: A Tutorial Overview of Standards, Trials, Challenges, Deployment, and Practice",2017,2081,222.8,other,,Shafi
+JSAC,overview,2019-2021,5,10.1109/jsac.2021.3065072,Age of Information: An Introduction and Survey,2021,1149,211.8,URLLC-AoI,URLLC-AoI,Yates
+JSAC,overview,2022-2025,6,10.1109/jsac.2021.3126076,"Edge Artificial Intelligence for 6G: Vision, Enabling Technologies, and Applications",2022,840,176.5,federated-edge-learning,federated-edge-learning,Letaief
+TCOM,research,2016-2018,1,10.1109/tcomm.2016.2611512,Throughput Maximization for UAV-Enabled Mobile Relaying Systems,2016,1239,125.9,UAV,UAV,Zeng
+TCOM,research,2019-2021,1,10.1109/tcomm.2019.2958916,Beamforming Optimization for Wireless Network Aided by Intelligent Reflecting Surface With Discrete Phase Shifts,2020,1223,185.5,RIS,RIS,Wu
+TCOM,research,2022-2025,1,10.1109/tcomm.2022.3231893,Active RIS vs. Passive RIS: Which Will Prevail in 6G?,2023,1070,297.9,RIS,RIS,Zhang
+TCOM,research,2016-2018,2,10.1109/tcomm.2016.2599530,Mobile-Edge Computing: Partial Computation Offloading Using Dynamic Voltage Scaling,2016,737,71.3,MEC-offloading,MEC-offloading,Wang
+TCOM,research,2019-2021,2,10.1109/tcomm.2020.2987311,Scalable Cell-Free Massive MIMO Systems,2020,965,154.2,cell-free-massive-MIMO,cell-free-massive-MIMO,Bjornson
+TCOM,research,2022-2025,2,10.1109/tcomm.2025.3555866,Flexible-Antenna Systems: A Pinching-Antenna Perspective,2025,292,289.6,movable-fluid-antenna,movable-fluid-antenna,Ding
+TCOM,research,2016-2018,3,10.1109/tcomm.2016.2557791,Channel Estimation via Orthogonal Matching Pursuit for Hybrid MIMO Systems in Millimeter Wave Communications,2016,678,65.6,mmWave-THz,mmWave-THz;channel-estimation,Lee
+TCOM,research,2019-2021,3,10.1109/tcomm.2021.3063236,Channel Estimation for RIS-Empowered Multi-User MISO Wireless Communications,2021,666,124.7,RIS,RIS;channel-estimation,Wei
+TCOM,research,2022-2025,3,10.1109/tcomm.2022.3146400,Channel Estimation for Extremely Large-Scale MIMO: Far-Field or Near-Field?,2022,917,203.4,cell-free-massive-MIMO,cell-free-massive-MIMO;near-field;channel-estimation,Cui
+TCOM,research,2016-2018,4,10.1109/tcomm.2017.2699660,Offloading in Mobile Edge Computing: Task Allocation and Computational Frequency Scaling,2017,587,62.8,MEC-offloading,MEC-offloading,Thinh
+TCOM,research,2019-2021,4,10.1109/tcomm.2020.3001125,Intelligent Reflecting Surface: Practical Phase Shift Model and Beamforming Optimization,2020,751,123.3,RIS,RIS,Abeywickrama
+TCOM,research,2022-2025,4,10.1109/tcomm.2025.3621049,Modeling and Beamforming Optimization for Pinching-Antenna Systems,2025,136,136.0,movable-fluid-antenna,movable-fluid-antenna,Wang
+TCOM,research,2016-2018,5,10.1109/tcomm.2018.2865922,Common Throughput Maximization in UAV-Enabled OFDMA Systems With Delay Consideration,2018,447,57.0,UAV,UAV;waveform-modulation,Wu
+TCOM,research,2019-2021,5,10.1109/tcomm.2020.2971486,Reconfigurable Intelligent Surface-Based Index Modulation: A New Beyond MIMO Paradigm for 6G,2020,777,120.9,RIS,RIS;waveform-modulation,Basar
+TCOM,research,2022-2025,5,10.1109/tcomm.2023.3332856,Active RIS-Aided ISAC Systems: Beamforming Design and Performance Analysis,2024,291,112.3,RIS,RIS;ISAC-sensing,Yu
+TCOM,research,2016-2018,6,10.1109/tcomm.2017.2787700,Computation Offloading and Resource Allocation in Mixed Fog/Cloud Computing Systems With Min-Max Fairness Guarantee,2018,470,55.2,MEC-offloading,MEC-offloading,Du
+TCOM,research,2019-2021,6,10.1109/tcomm.2021.3116151,"RIS-Aided Wireless Communications: Prototyping, Adaptive Beamforming, and Indoor/Outdoor Field Trials",2021,566,116.9,RIS,RIS,Pei
+TCOM,research,2022-2025,6,10.1109/tcomm.2024.3403499,Stacked Intelligent Metasurfaces for Holographic MIMO-Aided Cell-Free Networks,2024,209,108.6,RIS,RIS;cell-free-massive-MIMO,Li
+TCOM,research,2016-2018,7,10.1109/tcomm.2016.2618794,Modeling and Analyzing Millimeter Wave Cellular Systems,2016,570,55.1,mmWave-THz,mmWave-THz,Andrews
+TCOM,research,2019-2021,7,10.1109/tcomm.2020.2981458,Intelligent Reflecting Surface Meets OFDM: Protocol Design and Rate Maximization,2020,709,113.3,RIS,RIS;waveform-modulation,Yang
+TCOM,research,2022-2025,7,10.1109/tcomm.2024.3490740,Cell-Free ISAC MIMO Systems: Joint Sensing and Communication Beamforming,2025,140,104.3,ISAC-sensing,ISAC-sensing;cell-free-massive-MIMO,Demirhan
+TCOM,research,2016-2018,8,10.1109/tcomm.2017.2650992,Optimal Joint Power and Subcarrier Allocation for Full-Duplex Multicarrier Non-Orthogonal Multiple Access Systems,2017,514,53.6,NOMA-RSMA-access,NOMA-RSMA-access,Sun
+TCOM,research,2019-2021,8,10.1109/tcomm.2019.2944169,Scheduling Policies for Federated Learning in Wireless Networks,2020,586,86.7,federated-edge-learning,federated-edge-learning,Yang
+TCOM,research,2022-2025,8,10.1109/tcomm.2024.3364990,A Unified Multi-Task Semantic Communication System for Multimodal Data,2024,216,95.6,semantic,semantic,Zhang
+TCOM,research,2016-2018,9,10.1109/tcomm.2016.2549517,Frequency Selective Hybrid Precoding for Limited Feedback Millimeter Wave Systems,2016,509,48.8,mmWave-THz,mmWave-THz,Alkhateeb
+TCOM,research,2019-2021,9,10.1109/tcomm.2021.3088898,Secrecy-Energy Efficient Hybrid Beamforming for Satellite-Terrestrial Integrated Networks,2021,431,84.6,security,security;satellite-NTN;mmWave-THz,Lin
+TCOM,research,2022-2025,9,10.1109/tcomm.2025.3541027,Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design,2025,110,93.6,ISAC-sensing,ISAC-sensing;UAV,Cheng
+TCOM,research,2016-2018,10,10.1109/tcomm.2017.2746105,Ultra Reliable UAV Communication Using Altitude and Cooperation Diversity,2018,414,47.3,UAV,UAV,Azari
+TCOM,research,2019-2021,10,10.1109/tcomm.2021.3072729,Two-Timescale Channel Estimation for Reconfigurable Intelligent Surface Aided Wireless Communications,2021,390,79.2,RIS,RIS;channel-estimation,Hu
+TCOM,research,2022-2025,10,10.1109/tcomm.2024.3387869,Robust Transceiver Design for Covert Integrated Sensing and Communications With Imperfect CSI,2025,87,79.7,ISAC-sensing,ISAC-sensing;security;channel-estimation,Zhang
+TCOM,research,2016-2018,11,10.1109/tcomm.2017.2676103,Communications and Signals Design for Wireless Power Transmission,2017,433,45.9,SWIPT-WPT,SWIPT-WPT,Zeng
+TCOM,research,2019-2021,11,10.1109/tcomm.2019.2914652,Wireless Access in Ultra-Reliable Low-Latency Communication (URLLC),2019,468,65.2,URLLC-AoI,URLLC-AoI,Popovski
+TCOM,research,2022-2025,11,10.1109/tcomm.2023.3260242,Near-Field Channel Estimation in Mixed LoS/NLoS Environments for Extremely Large-Scale MIMO Systems,2023,255,76.3,cell-free-massive-MIMO,cell-free-massive-MIMO;near-field;channel-estimation,Lu
+TCOM,research,2016-2018,12,10.1109/tcomm.2016.2594759,Energy-Efficient Resource Allocation for Downlink Non-Orthogonal Multiple Access Network,2016,461,45.7,NOMA-RSMA-access,NOMA-RSMA-access,Fang
+TCOM,research,2019-2021,12,10.1109/tcomm.2019.2956472,Distributed Federated Learning for Ultra-Reliable Low-Latency Vehicular Communications,2020,391,58.6,federated-edge-learning,federated-edge-learning;vehicular;URLLC-AoI,Samarakoon
+TCOM,research,2022-2025,12,10.1109/tcomm.2024.3386577,Joint Coding-Modulation for Digital Semantic Communications via Variational Autoencoder,2024,144,68.8,semantic,semantic;waveform-modulation,Bo
+TCOM,research,2016-2018,13,10.1109/tcomm.2018.2846272,Channel Hardening and Favorable Propagation in Cell-Free Massive MIMO With Stochastic Geometry,2018,336,42.4,cell-free-massive-MIMO,cell-free-massive-MIMO,Chen
+TCOM,research,2019-2021,13,10.1109/tcomm.2019.2900630,Optimal 3D-Trajectory Design and Resource Allocation for Solar-Powered UAV Communication Systems,2019,426,58.0,UAV,UAV,Sun
+TCOM,research,2022-2025,13,10.1109/tcomm.2025.3547783,Movable Antenna Enabled Near-Field Communications: Channel Modeling and Performance Optimization,2025,75,68.7,movable-fluid-antenna,movable-fluid-antenna;near-field,Zhu
+TCOM,research,2016-2018,14,10.1109/tcomm.2017.2699194,Resource Allocation for D2D-Enabled Vehicular Communications,2017,384,41.5,vehicular,vehicular;caching-D2D,Liang
+TCOM,research,2019-2021,14,10.1109/tcomm.2019.2898573,Dynamic Task Offloading and Resource Allocation for Ultra-Reliable Low-Latency Edge Computing,2019,415,56.5,MEC-offloading,MEC-offloading;URLLC-AoI,Liu
+TCOM,research,2022-2025,14,10.1109/tcomm.2024.3465369,Secure MIMO Communication Relying on Movable Antennas,2025,94,62.3,movable-fluid-antenna,movable-fluid-antenna;security,Tang
+TCOM,overview,2019-2021,1,10.1109/tcomm.2021.3051897,Intelligent Reflecting Surface-Aided Wireless Communications: A Tutorial,2021,2941,542.1,RIS,RIS,Wu
+TCOM,overview,2019-2021,2,10.1109/tcomm.2020.2973976,"Joint Radar and Communication Design: Applications, State-of-the-Art, and the Road Ahead",2020,2020,318.5,ISAC-sensing,ISAC-sensing,Liu
+TCOM,overview,2022-2025,3,10.1109/tcomm.2022.3171800,Terahertz Band Communication: An Old Problem Revisited and Research Directions for the Next Decade,2022,681,156.9,mmWave-THz,mmWave-THz,Akyildiz
+TCOM,overview,2019-2021,4,10.1109/tcomm.2019.2924010,"Wireless Networks Design in the Era of Deep Learning: Model-Based, AI-Based, or Both?",2019,597,85.2,learning-for-wireless,learning-for-wireless,Zappone
+TCOM,overview,2019-2021,5,10.1109/tcomm.2020.2990686,Federated Learning With Blockchain for Autonomous Vehicles: Analysis and Design Challenges,2020,505,81.8,federated-edge-learning,federated-edge-learning;vehicular,Pokhrel
+TCOM,overview,2022-2025,6,10.1109/tcomm.2022.3217777,Overview of Deep Learning-Based CSI Feedback in Massive MIMO Systems,2022,289,75.2,cell-free-massive-MIMO,cell-free-massive-MIMO;learning-for-wireless;channel-estimation,Guo
+TWC,research,2016-2018,1,10.1109/twc.2017.2655515,Cell-Free Massive MIMO Versus Small Cells,2017,2687,280.1,cell-free-massive-MIMO,cell-free-massive-MIMO,Ngo
+TWC,research,2019-2021,1,10.1109/twc.2019.2936025,Intelligent Reflecting Surface Enhanced Wireless Network via Joint Active and Passive Beamforming,2019,4335,626.0,RIS,RIS,Wu
+TWC,research,2022-2025,1,10.1109/twc.2023.3330887,Modeling and Performance Analysis for Movable Antenna Enabled Wireless Communications,2024,605,258.4,movable-fluid-antenna,movable-fluid-antenna,Zhu
+TWC,research,2016-2018,2,10.1109/twc.2017.2688328,Energy-Efficient UAV Communication With Trajectory Optimization,2017,2104,225.2,UAV,UAV,Zeng
+TWC,research,2019-2021,2,10.1109/twc.2019.2922609,Reconfigurable Intelligent Surfaces for Energy Efficiency in Wireless Communication,2019,3625,505.2,RIS,RIS,Huang
+TWC,research,2022-2025,2,10.1109/twc.2021.3118225,Simultaneously Transmitting and Reflecting (STAR) RIS Aided Wireless Communications,2022,921,208.1,RIS,RIS,Mu
+TWC,research,2016-2018,3,10.1109/twc.2017.2789293,Joint Trajectory and Communication Design for Multi-UAV Enabled Wireless Networks,2018,1872,217.9,UAV,UAV,Wu
+TWC,research,2019-2021,3,10.1109/twc.2019.2902559,Energy Minimization for Wireless Communication With Rotary-Wing UAV,2019,2112,281.3,UAV,UAV,Zeng
+TWC,research,2022-2025,3,10.1109/twc.2023.3307696,MIMO Capacity Characterization for Movable Antenna Systems,2024,450,179.4,movable-fluid-antenna,movable-fluid-antenna,Ma
+TWC,research,2016-2018,4,10.1109/twc.2018.2860011,Interference Cancellation and Iterative Detection for Orthogonal Time Frequency Space Modulation,2018,1225,153.0,waveform-modulation,waveform-modulation,Raviteja
+TWC,research,2019-2021,4,10.1109/twc.2020.3024887,Wireless Communications With Reconfigurable Intelligent Surface: Path Loss Modeling and Experimental Measurement,2021,1481,257.2,RIS,RIS,Tang
+TWC,research,2022-2025,4,10.1109/twc.2023.3338626,Movable-Antenna Enhanced Multiuser Communication via Antenna Position Optimization,2024,391,173.1,movable-fluid-antenna,movable-fluid-antenna,Zhu
+TWC,research,2016-2018,5,10.1109/twc.2016.2633522,Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading,2017,1435,149.6,MEC-offloading,MEC-offloading,You
+TWC,research,2019-2021,5,10.1109/twc.2020.3024629,A Joint Learning and Communications Framework for Federated Learning Over Wireless Networks,2021,1318,228.9,federated-edge-learning,federated-edge-learning,Chen
+TWC,research,2022-2025,5,10.1109/twc.2024.3351856,Integrated Sensing and Communication With Massive MIMO: A Unified Tensor Approach for Channel and Target Parameter Estimation,2024,338,155.4,ISAC-sensing,ISAC-sensing;cell-free-massive-MIMO,Zhang
+TWC,research,2016-2018,6,10.1109/twc.2017.2751045,Mobile Unmanned Aerial Vehicles (UAVs) for Energy-Efficient Internet of Things Communications,2017,1004,112.5,UAV,UAV;vehicular,Mozaffari
+TWC,research,2019-2021,6,10.1109/twc.2020.3037554,Energy Efficient Federated Learning Over Wireless Communication Networks,2021,1034,184.9,federated-edge-learning,federated-edge-learning,Yang
+TWC,research,2022-2025,6,10.1109/twc.2022.3158894,Beam Focusing for Near-Field Multiuser MIMO Communications,2022,548,133.9,near-field,near-field,Zhang
+TWC,research,2016-2018,7,10.1109/twc.2018.2803045,MU-MIMO Communications With MIMO Radar: From Co-Existence to Joint Transmission,2018,951,111.8,ISAC-sensing,ISAC-sensing,Liu
+TWC,research,2019-2021,7,10.1109/twc.2020.2990766,Multicell MIMO Communications Relying on Intelligent Reflecting Surfaces,2020,999,161.8,RIS,RIS,Pan
+TWC,research,2022-2025,7,10.1109/twc.2024.3492195,6D Movable Antenna Based on User Distribution: Modeling and Optimization,2025,230,130.8,movable-fluid-antenna,movable-fluid-antenna,Shao
+TWC,research,2016-2018,8,10.1109/twc.2016.2531652,Unmanned Aerial Vehicle With Underlaid Device-to-Device Communications: Performance and Tradeoffs,2016,1113,107.6,UAV,UAV;vehicular;caching-D2D,Mozaffari
+TWC,research,2019-2021,8,10.1109/twc.2020.2970061,Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks,2020,995,154.9,RIS,RIS,Guo
+TWC,research,2022-2025,8,10.1109/twc.2024.3394214,Exploiting Multi-Layer Refracting RIS-Assisted Receiver for HAP-SWIPT Networks,2024,253,126.0,RIS,RIS;SWIPT-WPT;satellite-NTN,An
+TWC,research,2016-2018,9,10.1109/twc.2017.2785305,Joint Offloading and Computing Optimization in Wireless Powered Mobile-Edge Computing Systems,2018,881,102.5,MEC-offloading,MEC-offloading;SWIPT-WPT,Wang
+TWC,research,2019-2021,9,10.1109/twc.2019.2961673,Federated Learning via Over-the-Air Computation,2020,1019,154.6,federated-edge-learning,federated-edge-learning,Yang
+TWC,research,2022-2025,9,10.1109/twc.2025.3527962,Holographic Metasurface-Based Beamforming for Multi-Altitude LEO Satellite Networks,2025,178,118.0,RIS,RIS;satellite-NTN,Li
+TWC,research,2016-2018,10,10.1109/twc.2018.2821664,Computation Rate Maximization for Wireless Powered Mobile-Edge Computing With Binary Computation Offloading,2018,843,101.1,MEC-offloading,MEC-offloading;SWIPT-WPT,Bi
+TWC,research,2019-2021,10,10.1109/twc.2020.3037595,Fluid Antenna Systems,2021,862,154.2,movable-fluid-antenna,movable-fluid-antenna,Wong
+TWC,research,2022-2025,10,10.1109/twc.2022.3153316,Multi-Agent Deep Reinforcement Learning for Task Offloading in UAV-Assisted Mobile Edge Computing,2022,474,115.8,UAV,UAV;MEC-offloading;learning-for-wireless,Zhao
+TWC,research,2016-2018,11,10.1109/twc.2015.2475746,The Application of MIMO to Non-Orthogonal Multiple Access,2016,814,75.7,NOMA-RSMA-access,NOMA-RSMA-access,Ding
+TWC,research,2019-2021,11,10.1109/twc.2020.3004330,"Channel Estimation for Intelligent Reflecting Surface Assisted Multiuser Communications: Framework, Algorithms, and Analysis",2020,863,143.6,RIS,RIS;channel-estimation,Wang
+TWC,research,2022-2025,11,10.1109/twc.2023.3260906,Affine Frequency Division Multiplexing for Next Generation Wireless Communications,2023,329,112.5,waveform-modulation,waveform-modulation,Bemani
+TWC,research,2016-2018,12,10.1109/twc.2017.2703901,Computation Offloading and Resource Allocation in Wireless Cellular Networks With Mobile Edge Computing,2017,679,74.0,MEC-offloading,MEC-offloading,Wang
+TWC,research,2019-2021,12,10.1109/twc.2019.2941478,Making Cell-Free Massive MIMO Competitive With MMSE Processing and Centralized Implementation,2020,942,139.4,cell-free-massive-MIMO,cell-free-massive-MIMO,Bjornson
+TWC,research,2022-2025,12,10.1109/twc.2023.3280179,Secure Intelligent Reflecting Surface-Aided Integrated Sensing and Communication,2024,304,110.2,RIS,RIS;ISAC-sensing;security,Hua
+TWC,research,2016-2018,13,10.1109/twc.2017.2717986,Stochastic Joint Radio and Computational Resource Management for Multi-User Mobile-Edge Computing Systems,2017,662,72.8,MEC-offloading,MEC-offloading,Mao
+TWC,research,2019-2021,13,10.1109/twc.2019.2946140,Edge AI: On-Demand Accelerating Deep Neural Network Inference via Edge Computing,2020,891,131.8,federated-edge-learning,federated-edge-learning;MEC-offloading;learning-for-wireless,Li
+TWC,research,2022-2025,13,10.1109/twc.2024.3398770,Near-Field Wideband Beamforming for Extremely Large Antenna Arrays,2024,213,106.1,cell-free-massive-MIMO,cell-free-massive-MIMO;near-field,Cui
+TWC,research,2016-2018,14,10.1109/twc.2017.2698449,Precoding and Power Optimization in Cell-Free Massive MIMO Systems,2017,653,70.5,cell-free-massive-MIMO,cell-free-massive-MIMO,Nayebi
+TWC,research,2019-2021,14,10.1109/twc.2019.2946245,Broadband Analog Aggregation for Low-Latency Federated Edge Learning,2020,731,108.2,federated-edge-learning,federated-edge-learning;URLLC-AoI,Zhu
+TWC,research,2022-2025,14,10.1109/twc.2023.3265201,Robust Semantic Communications With Masked VQ-VAE Enabled Codebook,2023,295,103.8,semantic,semantic,Hu
+TWC,overview,2016-2018,1,10.1109/twc.2017.2681659,Fundamentals of Modeling Finite Wireless Networks Using Binomial Point Process,2017,103,10.9,other,,Afshang
+TWC,overview,2016-2018,2,10.1109/twc.2015.2496273,Toward a Tractable Analysis of Localization Fundamentals in Cellular Networks,2016,68,6.4,ISAC-sensing,ISAC-sensing,Schloemann

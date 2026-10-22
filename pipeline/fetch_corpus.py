@@ -139,7 +139,7 @@ def main():
             seen.add(r["doi"])
             uniq.append(r)
     uniq.sort(key=lambda r: (r["journal"], -r["cites_per_year"]))
-    with open(args.out, "w", newline="") as f:
+    with open(args.out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(uniq[0].keys()))
         w.writeheader()
         w.writerows(uniq)

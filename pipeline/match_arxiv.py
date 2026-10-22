@@ -113,15 +113,20 @@ def main():
     ap.add_argument("--out", default="corpus/arxiv_matches.jsonl")
     ap.add_argument("--per-band", type=int, default=60)
     ap.add_argument("--surveys-per-journal", type=int, default=15)
+    ap.add_argument("--selected", help="match the rows of this CSV in file order instead of the priority list")
     args = ap.parse_args()
 
-    rows = list(csv.DictReader(open(args.candidates)))
+    if args.selected:
+        pool = list(csv.DictReader(open(args.selected, encoding="utf-8")))
+    else:
+        rows = list(csv.DictReader(open(args.candidates, encoding="utf-8")))
+        pool = priority(rows, args.per_band, args.surveys_per_journal)
     done = set()
     if os.path.exists(args.out):
-        done = {json.loads(l)["doi"] for l in open(args.out)}
-    todo = [r for r in priority(rows, args.per_band, args.surveys_per_journal) if r["doi"] not in done]
+        done = {json.loads(l)["doi"] for l in open(args.out, encoding="utf-8")}
+    todo = [r for r in pool if r["doi"] not in done]
     print(f"{len(done)} already checked, {len(todo)} to go", file=sys.stderr)
-    with open(args.out, "a") as f:
+    with open(args.out, "a", encoding="utf-8") as f:
         for i, r in enumerate(todo, 1):
             m = find(r)
             rec = {"doi": r["doi"], "journal": r["journal"], "title": r["title"]}

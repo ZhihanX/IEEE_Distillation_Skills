@@ -1,0 +1,40 @@
+category,kind,journal,doi,title,year,cites,cites_per_year,has_main_card
+image-jscc,research,TCCN,10.1109/tccn.2019.2919300,Deep Joint Source-Channel Coding for Wireless Image Transmission,2019,1512,213.2,0
+image-jscc,research,JSAIT,10.1109/jsait.2020.2987203,DeepJSCC- <i>f</i> : Deep Joint Source-Channel Coding of Images With Feedback,2020,485,75.5,0
+image-jscc,research,TWC,10.1109/twc.2021.3090048,Bandwidth-Agile Image Transmission With Deep Joint Source-Channel Coding,2021,195,40.3,0
+image-jscc,research,TCCN,10.1109/tccn.2022.3151935,OFDM-Guided Deep Joint Source Channel Coding for Wireless Multipath Fading Channels,2022,200,46.1,0
+image-jscc,research,JSAC,10.1109/jsac.2022.3180802,Nonlinear Transform Source-Channel Coding for Semantic Communications,2022,376,90.1,1
+image-jscc,research,TCCN,10.1109/tccn.2024.3424842,SwinJSCC: Taming Swin Transformer for Deep Joint Source-Channel Coding,2025,239,142.7,0
+image-jscc,research,TWC,10.1109/twc.2023.3234408,Predictive and Adaptive Deep Coding for Wireless Image Transmission in Semantic Communication,2023,274,86.3,0
+image-jscc,research,TWC,10.1109/twc.2024.3422794,Deep Joint Source-Channel Coding for Adaptive Image Transmission Over MIMO Channels,2024,117,58.3,0
+image-jscc,research,TWC,10.1109/twc.2023.3349330,Semantic Communications for Image Recovery and Classification via Deep Joint Source and Channel Coding,2024,154,70.8,0
+image-jscc,research,JSAC,10.1109/jsac.2022.3221999,Toward Semantic Communications: Deep Learning-Based Image Semantic Coding,2023,345,91.8,1
+digital,research,TWC,10.1109/twc.2023.3265201,Robust Semantic Communications With Masked VQ-VAE Enabled Codebook,2023,297,104.5,0
+digital,research,TCOM,10.1109/tcomm.2024.3386577,Joint Coding-Modulation for Digital Semantic Communications via Variational Autoencoder,2024,146,69.8,0
+digital,research,JSAIT,10.1109/jsait.2022.3231042,DeepJSCC-Q: Constellation Constrained Deep Joint Source-Channel Coding,2022,153,39.8,0
+digital,research,JSAC,10.1109/jsac.2025.3531546,D²-JSCC: Digital Deep Joint Source-Channel Coding for Semantic Communications,2025,70,46.4,0
+digital,research,TCCN,10.1109/tccn.2024.3422496,Joint Source-Channel Coding for Channel-Adaptive Digital Semantic Communications,2025,83,49.6,0
+generative,research,TWC,10.1109/twc.2024.3379244,CDDM: Channel Denoising Diffusion Models for Wireless Semantic Communications,2024,176,84.1,0
+generative,research,JSAC,10.1109/jsac.2023.3288243,Generative Joint Source-Channel Coding for Semantic Image Transmission,2023,209,65.8,0
+generative,research,JSAC,10.1109/jsac.2025.3559120,Generative Semantic Communications With Foundation Models: Perception-Error Analysis and Semantic-Aware Power Allocation,2025,48,38.1,0
+generative,research,TCCN,10.1109/tccn.2024.3401712,LaMoSC: Large Language Model-Driven Semantic Communication System for Visual Transmission,2024,70,38.0,0
+modality,research,TSP,10.1109/tsp.2021.3071210,Deep Learning Enabled Semantic Communication Systems,2021,1649,308.7,0
+modality,research,JSAC,10.1109/jsac.2021.3087240,Semantic Communication Systems for Speech Transmission,2021,677,130.8,1
+modality,research,TWC,10.1109/twc.2023.3240969,Deep Learning Enabled Semantic Communications With Speech Recognition and Synthesis,2023,284,91.9,0
+modality,research,JSAC,10.1109/jsac.2022.3221977,Wireless Deep Video Semantic Transmission,2023,278,74.0,0
+modality,research,JSAC,10.1109/jsac.2022.3191354,DeepWiVe: Deep-Learning-Aided Wireless Video Transmission,2022,213,52.1,0
+modality,research,JSAC,10.1109/jsac.2022.3221968,Wireless Semantic Communications for Video Conferencing,2023,271,72.1,0
+task-multiuser,research,JSAC,10.1109/jsac.2021.3126087,Learning Task-Oriented Communication for Edge Inference: An Information Bottleneck Approach,2022,347,72.9,0
+task-multiuser,research,JSAC,10.1109/jsac.2022.3191326,Task-Oriented Multi-User Semantic Communications,2022,464,113.4,1
+task-multiuser,research,TCOM,10.1109/tcomm.2024.3364990,A Unified Multi-Task Semantic Communication System for Multimodal Data,2024,218,96.5,1
+task-multiuser,research,JSAC,10.1109/jsac.2022.3221991,Deep Learning-Enabled Semantic Communication Systems With Task-Unaware Transmitter and Dynamic Data,2023,259,68.9,0
+task-multiuser,research,TWC,10.1109/twc.2022.3191118,Task-Oriented Communication for Multidevice Cooperative Edge Inference,2023,217,57.7,0
+task-multiuser,research,TCCN,10.1109/tccn.2023.3326302,DeepMA: End-to-End Deep Multiple Access for Wireless Image Transmission in Semantic Communication,2024,71,28.3,0
+networking,research,JSAC,10.1109/jsac.2022.3191112,Performance Optimization for Semantic Communications: An Attention-Based Reinforcement Learning Approach,2022,226,55.2,0
+networking,research,JSAC,10.1109/jsac.2023.3240713,Energy Efficient Semantic Communication Over Wireless Networks With Rate Splitting,2023,181,52.8,0
+networking,research,JSAC,10.1109/jsac.2022.3222000,Heterogeneous Semantic and Bit Communications: A Semi-NOMA Scheme,2023,160,42.6,0
+theory-security,research,TCOM,10.1109/tcomm.2023.3274122,The Role of Fidelity in Goal-Oriented Semantic Communication: A Rate Distortion Approach,2023,58,17.8,0
+theory-security,research,JSAC,10.1109/jsac.2023.3288249,Physical-Layer Adversarial Robustness for Deep Learning-Based Semantic Communications,2023,92,29.0,0
+theory-security,research,TWC,10.1109/twc.2024.3369170,Privacy-Preserving Task-Oriented Semantic Communications Against Model Inversion Attacks,2024,73,33.6,0
+overview,overview,JSAC,10.1109/jsac.2022.3223408,"Beyond Transmitting Bits: Context, Semantics, and Task-Oriented Communications",2023,812,216.1,0
+overview,overview,TCCN,10.1109/tccn.2024.3435524,"Generative AI-Driven Semantic Communication Networks: Architecture, Technologies, and Applications",2025,155,92.5,0
